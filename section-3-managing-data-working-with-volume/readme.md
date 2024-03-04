@@ -5,3 +5,6 @@ in the conatiner
 
 ### To check the active volumes
 docker volume ls
+
+### to remove volume
+docker volume rm VOL_NAME
