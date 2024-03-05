@@ -3,5 +3,6 @@ WORKDIR /app
 COPY package.json .
 RUN yarn
 COPY . .
-EXPOSE 80
+ENV PORT 80
+EXPOSE $PORT
 CMD [ "node", "server.js" ]
